@@ -151,5 +151,25 @@ table {
 }
 .other-buttons {
   display: flex;
-  margin: 0px;
+  margin-top: -70px;
+  flex-direction: row;
+  justify-content: center;
+}
+.google-search,
+.feeling-lucky {
+  color: rgb(100, 100, 100);
+  background: #f8f8f8;
+  margin-right: 15px;
+  border-radius: 5px;
+  border: 1px solid white;
+  height: 30px;
+  margin-bottom: 20px;
+}
+.google-search:hover,
+.feeling-lucky:hover {
+  color: grey;
+  background: #f8f9fa7a;
+  margin-right: 15px;
+  border: 1px solid #6b6d6ebe;
+  border-radius: 5px;
 }
