@@ -127,11 +127,29 @@ table {
   justify-content: center;
   align-items: center;
   margin: 100px;
-  border: 2px solid red;
   flex-direction: column;
 }
 
-.search {
-  padding: 20px;
-  font-size: 17px;
+.search input {
+  height: 30px;
+  border: 1px solid grey;
+  border-radius: 30px;
+  width: 450px;
+  margin-top: 20px;
+  box-shadow: 1px 1px rgb(194, 191, 191, 0.5), 0 0 0.2em rgb(240, 240, 237, 0.5);
+}
+.fas {
+  position: absolute;
+  margin: 28px;
+  margin-left: 10px;
+  color: grey;
+}
+.fa-microphone {
+  color: blue;
+  position: absolute;
+  margin: 28px -27px;
+}
+.other-buttons {
+  display: flex;
+  margin: 0px;
 }
