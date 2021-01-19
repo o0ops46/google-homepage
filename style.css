@@ -122,7 +122,16 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-img {
+.logo {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin: 100px;
+  border: 2px solid red;
+  flex-direction: column;
+}
+
+.search {
+  padding: 20px;
+  font-size: 17px;
 }
