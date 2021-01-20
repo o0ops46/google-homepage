@@ -196,15 +196,25 @@ a {
 }
 #navbar {
   display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
 }
 .left-nav {
 }
 
 .right-nav {
+  display: flex;
+  justify-content: space-between;
 }
 .right-items {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
 }
 .avatar-logo {
   border-radius: 50px;
   width: 30px;
+}
+.fa-th {
+  align-self: end;
 }
