@@ -220,6 +220,9 @@ a {
   width: 30px;
   margin-left: 40px;
 }
+header a {
+  color: rgb(59, 59, 59);
+}
 .fa-th {
   margin-top: 10px;
   margin-left: 5px;
@@ -260,6 +263,11 @@ footer {
   bottom: 15px;
   padding-right: 30px;
 }
-a {
-  color: rgba(0, 0, 0, 0.54);
+
+.fa-envira {
+  margin-left: 100px;
+  color: green;
+}
+footer a {
+  color: rgb(100, 100, 100);
 }
