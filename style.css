@@ -193,6 +193,7 @@ table {
 
 a {
   padding: 8px;
+  text-decoration: none;
 }
 #navbar {
   display: flex;
@@ -200,21 +201,43 @@ a {
   align-content: flex-end;
 }
 .left-nav {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 14px;
 }
 
 .right-nav {
+  font-size: 14px;
   display: flex;
-  justify-content: space-between;
-}
-.right-items {
-  display: flex;
-  justify-content: space-between;
-  align-content: flex-end;
+  margin-top: 13px;
+  margin-right: 20px;
 }
 .avatar-logo {
   border-radius: 50px;
   width: 30px;
+  margin-left: 40px;
 }
 .fa-th {
-  align-self: end;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.first-footer {
+  height: 20px;
+  left: 0;
+  bottom: 25px;
+  background: grey;
+  position: fixed;
+  width: 100%;
+  text-align: left;
+}
+.second-footer {
+  height: 20px;
+  left: 5;
+  bottom: 0;
+  position: fixed;
+  background: grey;
+}
+.third-footer {
+  position: relative;
+  text-align: right;
 }
